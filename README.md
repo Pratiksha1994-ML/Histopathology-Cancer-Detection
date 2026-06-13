@@ -167,9 +167,9 @@ The application allows users to upload histopathology images and receive predict
 
 ![Streamlit App](screenshots/streamlit.png)
 
-### Prediction Result
+### Sample Prediction
 
-![Prediction](screenshots/app_part1.png)
+![Sample Prediction](screenshots/app.png)
 
 ---
 
