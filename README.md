@@ -107,7 +107,7 @@ Histopathology-Cancer-Detection/
 * evaluate_v2.py – Model evaluation and performance metrics
 * app.py – Streamlit web application
 * requirements.txt – Project dependencies
-* sample_images/test.jpg – Sample image for testing
+* sample_images/test.jpg – Sample histopathology image for testing the Streamlit application
 * screenshots/ – Project screenshots and results
 
 ---
@@ -127,6 +127,18 @@ python evaluate_v2.py
 streamlit run app.py
 
 The application allows users to upload histopathology images and receive predictions as either Benign or Malignant along with a confidence score.
+
+---
+
+## Sample Test Image
+
+The file:
+
+sample_images/test.jpg
+
+is included as a sample histopathology image for testing the Streamlit web application.
+
+Users can upload this image through the Streamlit interface to verify that the model is working correctly and generating predictions.
 
 ---
 
@@ -191,7 +203,7 @@ The model successfully classifies breast cancer histopathology images into Benig
 ## Future Improvements
 
 * Grad-CAM Visualization
-* EfficientNet Comparison
+* EfficientNet Model Comparison
 * Multi-Class Cancer Classification
 * Cloud Deployment
 * Mobile Application Integration
